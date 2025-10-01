@@ -1,4 +1,5 @@
-# MongoDB Fundamentals - Week 1
+<!-- # MongoDB Fundamentals - Week 1
+
 
 ## Setup Instructions
 
@@ -56,4 +57,41 @@ Complete all the exercises in this assignment and push your code to GitHub using
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)  -->
+
+
+
+# PLP Bookstore MongoDB Assignment - Kenyan Books Edition
+
+## Project Overview
+This project demonstrates MongoDB fundamentals using exclusively Kenyan literature data, including CRUD operations, aggregation pipelines, and indexing.
+
+## Kenyan Authors Featured
+- Ngũgĩ wa Thiong'o
+- Margaret Ogola
+- Wangari Maathai
+- Yvonne Adhiambo Owuor
+- Meja Mwangi
+- Grace Ogot
+- Marjorie Oludhe Macgoye
+- Mukoma Wa Ngugi
+- Muthoni Likimani
+
+## Files Structure
+- `insert_books.js` - Script to populate the database with Kenyan book data
+- `queries.js` - Contains all MongoDB queries using Kenyan books
+- `README.md` - Setup instructions
+
+## Setup Instructions
+
+### 1. MongoDB Installation
+- Install MongoDB Community Edition from [MongoDB Website](https://www.mongodb.com/try/download/community)
+- OR set up a free MongoDB Atlas cluster at [MongoDB Atlas](https://www.mongodb.com/atlas)
+
+### 2. Database Setup
+```bash
+# Start MongoDB service
+mongod
+
+# Connect to MongoDB
+mongosh
